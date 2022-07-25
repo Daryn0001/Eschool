@@ -71,5 +71,5 @@ http://locahost:3000/auth/register
 applications.properties
 ```
 
-хост созданного таблиц
+хост созданного таблиц, username и password
 
