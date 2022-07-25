@@ -12,14 +12,14 @@ For building and running the application you need:
 
 ## Running the application locally
 
-# Чтобы скачать с гитхаба проект запускаем команду:
+## Чтобы скачать с гитхаба проект запускаем команду:
 ```
 $ git clone https://github.com/Daryn0001/Eschool
 ```
  
  
 
-#Заходим в папку:
+## Заходим в папку:
 eschool/client
 
 запускаем команду:
