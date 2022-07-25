@@ -12,10 +12,31 @@ For building and running the application you need:
 
 ## Running the application locally
 
-There are several ways to run a Spring Boot application on your local machine. One way is to execute the `main` method in the `de.codecentric.springbootsample.Application` class from your IDE.
+ Чтобы скачать с гитхаба проект запускаем команду:
+```
+$ git clone https://github.com/Daryn0001/Eschool
+```
+ 
+ 
 
-Alternatively you can use the [Spring Boot Maven plugin](https://docs.spring.io/spring-boot/docs/current/reference/html/build-tool-plugins-maven-plugin.html) like so:
+Заходим в папку:
+eschool/client
 
-```shell
+запускаем команду:
+```
+npm install
+```
+Потом заходим в папку:
+```
+src/main/java/com/company/server/Main.java
+```
+ запускаем команду:
+ ```
 mvn spring-boot:run
 ```
+
+Ждём, когда запуститься сервер. После запуска сервера, заходим в браузере по адресу:
+http://locahost:3000/auth/register 
+
+проходим регистрацию потом откроем окна логин и введем email и password 
+После этого откроется доступ к окнам "StudentList" и "Add Student"
