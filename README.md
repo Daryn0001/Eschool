@@ -28,7 +28,9 @@ npm install
 ```
 Потом заходим в папку:
 ```
-src/main/java/com/company/server/Main.java
+через команду ```cd .. ```
+обратно выйдем на папку "eschool" 
+
 ```
  запускаем команду:
  ```
