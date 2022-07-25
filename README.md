@@ -10,7 +10,7 @@ For building and running the application you need:
 - [JDK 15](http://www.oracle.com/technetwork/java/javase/downloads/jdk15-downloads-2133151.html)
 - [Maven 3](https://maven.apache.org)
 - [Node.js](https://nodejs.org/en/)
-- 
+- [ReactJs](https://ru.reactjs.org)
 ## Running the application locally
 
 ## Чтобы скачать с гитхаба проект запускаем команду:
