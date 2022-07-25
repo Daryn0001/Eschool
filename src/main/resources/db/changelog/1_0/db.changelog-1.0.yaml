@@ -1,0 +1,37 @@
+databaseChangeLog:
+
+  - changeSet:
+      id: "1.0"
+      author: daryn
+
+  - include:
+      file: initPupilDB.sql
+      relativeToChangelogFile: true
+
+  - include:
+      file: initUserDB.sql
+      relativeToChangelogFile: true
+
+  - changeSet:
+      id: insertPupils
+      author: daryn
+      changes:
+        - sqlFile:
+            dbms: postgresql
+            encoding: utf8
+            path: populateDB.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            stripComments: true
+
+  - changeSet:
+      id: insertUsers
+      author: daryn
+      changes:
+        - sqlFile:
+            dbms: postgresql
+            encoding: utf8
+            path: populateUserDB.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            stripComments: true
