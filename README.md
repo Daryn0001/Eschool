@@ -18,9 +18,8 @@ $ git clone https://github.com/Daryn0001/Eschool
 ```
  
  
-
-## Заходим в папку:
-eschool/client
+1. ol Заходим в папку:
+ 1. ol eschool/client
 
 запускаем команду:
 ```
